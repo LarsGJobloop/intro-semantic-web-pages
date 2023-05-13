@@ -1,0 +1,13 @@
+#hero {
+  background-image: url(/assets/hero-jaredd-craig-HH4WBGNyltc-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+}
+
+#hero > * {
+  padding: 2rem 0px;
+  text-align: center;
+}

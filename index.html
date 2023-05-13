@@ -6,14 +6,16 @@
 
     <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon" />
 
-    <link rel="stylesheet" href="/styles/normalize.css" />
-    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/section-hero.css" />
     <link rel="stylesheet" href="styles/section-image.css" />
+    <link rel="stylesheet" href="styles/classes.css" />
 
     <title>Semantiske Netsider</title>
   </head>
   <body class="App">
-    <header class="navbar">
+    <header class="navbar glass-orange">
       <div class="logo">
         <a href="#">
           <img src="assets/logo.svg" alt="bedrifts logo" />
@@ -22,7 +24,7 @@
 
       <nav class="main-navigation">
         <ul>
-          <li><a href="#top">Home</a></li>
+          <li><a href="#hero">Home</a></li>
           <li><a href="#html">Semantisk HTML</a></li>
           <li><a href="#image">Bilde med mening</a></li>
         </ul>
@@ -30,13 +32,17 @@
     </header>
 
     <main class="main">
-      <section id="top">
-        <h1>Velkommen</h1>
-        <p></p>
+      <section id="hero">
+        <div class="glass-smoked full-width">
+          <h1>Litt om den semantiske delen av Web Utvikling</h1>
+          <p></p>
+        </div>
       </section>
 
       <section id="html">
-        <h1>Semantisk</h1>
+        <div class="glass-smoked">
+          <h1>Semantisk</h1>
+        </div>
       </section>
 
       <section id="image">
@@ -49,12 +55,14 @@
         </div>
 
         <div class="layer-foreground">
-          <h1>Bilde med mening</h1>
-          <p>Bildet i denne seksjonene er definert via et HTML element.</p>
-          <p>
-            Du gjør dette når du ønsker å inkludere det som en del av
-            brukerreisen
-          </p>
+          <div class="glass-smoked">
+            <h1>Bilde med mening</h1>
+            <p>Bildet i denne seksjonene er definert via et HTML element.</p>
+            <p>
+              Du gjør dette når du ønsker å inkludere det som en del av
+              brukerreisen
+            </p>
+          </div>
         </div>
       </section>
     </main>

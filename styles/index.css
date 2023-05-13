@@ -6,15 +6,21 @@
 }
 
 .navbar {
-  background-color: chocolate;
-
-  position: sticky;
-  top: 0px;
+  position: fixed;
+  width: 100%;
   z-index: 10;
   
   display: flex;
   justify-content: space-between;
+
+  padding-left: 1rem;
+  padding-right: 2rem;
 }
+
+.main-navigation {
+  margin: auto 0px;
+}
+
 .main-navigation>ul {
   display: flex;
   gap: 1rem;
@@ -26,4 +32,8 @@
 
 .main>section {
   height: 100vh;
+}
+
+:root {
+  color: whitesmoke;;
 }

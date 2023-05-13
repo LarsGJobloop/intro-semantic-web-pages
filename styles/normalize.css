@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}

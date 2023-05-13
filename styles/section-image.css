@@ -1,0 +1,17 @@
+#image {
+  position: relative;
+  overflow: hidden;
+}
+
+#image > * {
+  position: absolute;
+  
+
+  height: 100%;
+}
+
+#image .layer-background > img {
+}
+
+#image .layer-foreground {
+}
